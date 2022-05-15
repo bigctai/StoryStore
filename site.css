@@ -1,0 +1,194 @@
+*{
+    margin: auto;
+    
+}
+html, 
+body{
+    height: 100%;
+    text-align:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, hsla(5, 32%, 28%, 1) 0%, hsla(0, 55%, 31%, 1) 100%);
+}
+p{
+    margin: 0.5em 0 0.5em 0;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size:70px;
+    padding-bottom: 20px;
+    color: white;
+}
+.banner{
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(101, 34, 34, 0.925);
+    height: 10vh;
+    opacity: .8;
+}
+.logo>a>img{
+    height: 80px;
+}
+.menubar{
+    width: 65%;
+}
+
+nav a:hover{
+    color:black;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items a{
+    color: white;
+    transition: 0.4s;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.cart{
+    padding-right: 2em;
+    position: relative;
+}
+
+.burger{
+    height: 28px;
+    width: 32px;
+    display: none;
+}
+
+.layer1, .layer2, .layer3{
+    background: black;
+    height: 4px;
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+main{
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+main>article>img{
+    height: 350px;
+    width: 700px;
+}
+footer{
+    background-color:rgba(101, 34, 34, 0.925);
+    opacity: .8;
+    padding: 10px;
+}
+
+article{
+    width: 75%;
+}
+
+.columns{
+    display: flex;
+}
+
+@media only screen and (min-width: 768px){
+    aside{
+        display: flex;
+    }
+    aside{
+        margin-left: 2%;
+    }
+    .columns-desktop{
+        display: flex;
+    }
+}
+
+/* Books */
+
+.search input{
+    padding:10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:1000px;
+    font-family:'Times New Roman', Times, serif
+}
+.books{
+    width:200 px;
+    padding:10px;
+    margin:10px;
+    background-color: white;
+}
+
+.book img{
+    width: 350px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+
+.book .title{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.book .desc{
+    color: black;
+}
+
+.book .rows{
+    width: fit-content;
+    padding: 5px;
+}
+
+.book p{
+    color: rgb(100, 51, 23);
+}
+.book .columns div{
+    width: 200px;
+}
+
+.book form{
+    padding-bottom: 20px;
+}
+.book form>input{
+    background-color: rgba(68, 18, 18, 0.925);
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: rgba(238, 201, 201, 0.788);
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: bold;
+}
+
+.Chris>img{
+    max-height: 300px;
+    width: auto;
+}
+.bio{
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.blurb, .accolades{
+    font-size: 30px;
+}
