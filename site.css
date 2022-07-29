@@ -1,0 +1,298 @@
+*{
+    margin: auto;
+    
+}
+html, 
+body{
+    height: 100%;
+    text-align:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    background: linear-gradient(90deg, hsla(5, 32%, 28%, 1) 0%, hsla(0, 55%, 31%, 1) 100%);
+}
+p{
+    margin: 0.5em 0 0.5em 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.close-cart>h1{
+    color:black;
+}
+
+.total-sum>h1{
+    color:black;
+}
+
+h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: white;
+}
+.banner{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(101, 34, 34, 0.925);
+    outline: 1px solid white;
+    height: 12vh;
+    opacity: .8;
+}
+.logo>a>img{
+    height: 80px;
+}
+.menubar{
+    width: 65%;
+}
+
+nav a:hover{
+    color:black;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-items a{
+    color: white;
+    transition: 0.4s;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav>.cart>img{
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+}
+
+.burger{
+    height: 28px;
+    width: 32px;
+    display: none;
+}
+
+.layer1, .layer2, .layer3{
+    background: black;
+    height: 4px;
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cart-sidebar{
+    align-items:right;
+    transform: translateX(100%);
+    overflow: scroll;
+    width: 450px;
+    height:100vh;
+    z-index:10;
+    top:0;
+    right:0;
+    position:fixed;
+    background-color: white;
+    transition: .3s ease-out;
+}
+
+.cart .close-cart{
+    cursor: pointer;
+}
+
+.cart-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.none{
+    display: none;
+}
+
+main{
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+main>article>img{
+    height: 350px;
+    width: 700px;
+}
+footer{
+    background-color:rgba(101, 34, 34, 0.925);
+    outline: 1px solid white;
+    opacity: .8;
+    padding: 10px;
+}
+
+article{
+    width: 75%;
+}
+
+.columns-desktop{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr))
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        padding-left: 0px;
+    }
+
+    .cart{
+        padding-right: 0px;
+    }
+
+    .mySlides>img{
+        width:50px;
+    }
+}
+
+/* Stories */
+
+.search input{
+    padding:10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 70%;
+    font-family:'Times New Roman', Times, serif
+}
+
+.book{
+    font-family: 'Roboto Flex', sans-serif;
+    width: 80%;
+    font-size: 18px;
+    align-content: center;
+    color: black;
+    justify-content: center;
+    padding: 20px;
+}
+
+.book>img{
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+.book .title{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    margin-top: 10px
+}
+
+.word-count{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.desc{
+    padding: 5px;
+}
+
+.price{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(68, 18, 18, 0.925);
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: rgba(238, 201, 201, 0.788);
+    font-family: 'Roboto Flex', sans-serif;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: bold;
+}
+
+.add-to-cart:hover{
+    color: black;
+    background-color: white;
+}
+
+.in-cart{
+    background-color: black;
+    pointer-events: none;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+/*cart*/
+.product-image > img{
+    height: 200px;
+    width: 200px;
+}
+.cart-product-name>h3{
+    font-size: 20px;
+}
+.cart-product-price>h3{
+    font-size: 15px;
+}
+
+.cart-product-remove{
+    color: red;
+}
+
+
+/*bio*/
+
+.Chris>img{
+    max-height: 300px;
+    width: auto;
+}
+.bio{
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.blurb, .accolades{
+    font-size: 30px;
+}
+
+
+/*order*/
+.order{
+    outline: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.order-specifics{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: auto;
+}
+
+.order-outline{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.order-specifics h3{
+    display: flex;
+    margin-left: auto;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories | Chris's StoryStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "site.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <nav class = "navbar">
+            <div class = "logo">
+                <a href = "/">
+                    <img src = "images/booklogo.png" alt = "Chris's Book Shop" >
+                </a>
+            </div>
+            <div class = "menubar">
+                <ul class = "list">
+                    <li class = "list-items"><a href="about.html">About</a></li>
+                    <li class = "list-items"><a href="books.html">Stories</a></li>
+                    <li class = "list-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class = "cart">
+                <img src = "images/cart.png" alt = "cart">
+            </div>
+        </nav>
+    </header> 
+    <main>
+        <!-- Add a search bar-->
+        <article>
+            <h1>Stories</h1>
+            <i class = "fa-solid fa-x"></i>
+            <div class = "search">
+                <input type = "text" placeholder = "Search for a book">
+            </div>
+            <section class="columns-desktop">
+                    <!--<div class="book">
+                    <img src="images/Monster.jpeg" alt = "The Serrated Six"/>
+                    <div class = "rows">
+                        <div class = "title">The Serrated Six</div>
+                        <div class="word count">Word Count: 2985</div>
+                    </div>
+                    <p class = "desc">A story of six hunters searching for a mythical monster</p>
+                    <form action = "stories/The Serrated Six (Submission Ver.).pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                    <button class = "add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="book">
+                    <img src="images/clock.jpeg" alt = "Out of Time"/>
+                    <div class = "rows">
+                        <div class = "title">Out of Time</div>
+                        <div class="word count">Word Count: 1472</div>
+                    </div>
+                        <p class = "desc">A story of growing up and what is left behind</p>
+<button data-order="Out of Time">Order</button>
+                <button data-order="Read"> Read </button>
+
+                    <form action = "stories/Out of Time 1500 word version.pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                </div>
+                
+                <div class="book">
+                    <img src="images/baggage.jpeg" alt = "Baggage"/>
+                    <div class = "rows">
+                        <div class = "title">Baggage</div>
+                        <div class="word count">Word Count: 3718</div>
+                        <p class = "desc">A story of reclaiming one's first love</p>
+                    </div>
+                    
+                    <form action = "stories/Baggage.pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                </div>
+            </div>
+            <div class = "rows">
+                <div class="book">
+                    <img src="images/bounties.jpg" alt = "Bounties"/>
+                    <div class = "rows">
+                        <div class = "title">Bounties</div>
+                        <div class="word count">Word Count: 2706</div>
+                    </div>
+                    <p class = "desc">A story of a man who must hunt others but always fails</p>
+                    <form action = "stories/Bounties.pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                </div>
+                <div class="book">
+                    <img src="images/predator.jpeg" alt = "Predator"/>
+                    <div class = "rows">
+                        <div class = "title">Predator</div>
+                        <div class="word count">Word Count: 985</div>
+                    </div>
+                    <p class = "desc">A story of nature and the hunt</p>
+                    <form action = "stories/Predator.pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                </div>
+                <div class="book">
+                    <img src="images/a glimpse of autumn.jpeg" alt = "A Glimpse of Autumn"/>
+                    <div class = "rows">
+                        <div class = "title">A Glimpse of Autumn</div>
+                        <div class="word count">Word Count: 583</div>
+                    </div>
+                    <p class = "desc">A story of memories and childhood innocence</p>
+                    <form action = "stories/A Glimpse of Autumn.pdf">
+                        <input type = "submit" value = "Read">
+                    </form>
+                </div>
+            -->
+            </div>
+            </section>
+        </article>
+        <div class = "cart-sidebar">
+            <div class = "cart">
+                <div class = "close-cart">
+                    <h1>x</h1>
+                </div>
+                <h2>Your Books</h2>
+                <div class ="cart-content"></div>
+            </div>
+            <div class = "total-sum">
+                <h2>Your Total: $<span class = "total-amount">0</span></h2>
+            </div>
+            <div class = "clear-cart">
+                <button class = "btn clear-cart-btn"> Clear Cart </button>
+            </div>
+            <div class = "clear-cart">
+                <button class = "btn clear-cart-btn proceed"> Proceed </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <div class = "menubar">
+                <ul class = "list">
+                    <li class = "list-items"><a href="about.html">About</a></li>
+                    <li class = "list-items"><a href="books.html">Stories</a></li>
+                    <li class = "list-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src = "books.js" type = "text/javascript"></script>
+    <script src = "products.json" type = "text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+    "items":[
+        {
+            "sys": {"id": 1},
+            "fields":{
+                "title": "The Serrated Six",
+                "price": "1.99",
+                "image": {"fields": {"file":{"url":"images/Monster.jpeg"}}},
+                "desc": "A story of six hunters searching for a mythical monster",
+                "wordcount": "2985"
+            }
+        },
+        {
+            "sys": {"id": 2},
+            "fields":{
+                "title": "Out of Time",
+                "price": "1.99",
+                "image": {"fields": {"file":{"url":"images/clock.jpeg"}}},
+                "desc": "A story of growing up and what is left behind",
+                "wordcount": "1472"
+            }
+        },
+        {
+            "sys": {"id": 3},
+            "fields":{
+                "title": "Baggage",
+                "price": "0.99",
+                "image": {"fields": {"file":{"url":"images/baggage.jpeg"}}},
+                "desc": "A story of reclaiming one's first love",
+                "wordcount": "3718"
+            }
+        },
+        {
+            "sys": {"id": 4},
+            "fields":{
+                "title": "Bounties",
+                "price": "0.99",
+                "image": {"fields": {"file":{"url":"images/bounties.jpg"}}},
+                "desc": "A story of a man who must hunt others but always fails",
+                "wordcount": "2706"
+            }
+        },
+        {
+            "sys": {"id": 5},
+            "fields":{
+                "title": "Predator",
+                "price": "0.99",
+                "image": {"fields": {"file":{"url":"images/predator.jpeg"}}},
+                "desc": "A story of nature and the hunt",
+                "wordcount": 985
+            }
+        },
+        {
+            "sys": {"id": 6},
+            "fields":{
+                "title": "A Glimpse of Autumn",
+                "price": "0",
+                "image": {"fields": {"file":{"url":"images/autumn.jpeg"}}},
+                "desc": "A story of memories and childhood innocence",
+                "wordcount": 583
+            }
+        }
+    ]
+}
